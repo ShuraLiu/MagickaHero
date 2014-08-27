@@ -1,0 +1,18 @@
+﻿生成启动时间为 2014/8/26 23:22:57。
+     1>项目“E:\develop\MagickaHero\cocos2d\cocos\audio\proj.win32\CocosDenshion.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v7.1A\include" /I..\Include /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\cocos /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\cocos\platform\win32 /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\cocos\platform\desktop /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"E:\develop\MagickaHero\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\win32\MciPlayer.cpp ..\win32\SimpleAudioEngine.cpp
+         MciPlayer.cpp
+         SimpleAudioEngine.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\2d\cclabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据 (..\win32\SimpleAudioEngine.cpp)
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated\ccdeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\win32\SimpleAudioEngine.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer\ccglstatecache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+       Lib:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\develop\MagickaHero\proj.win32\Debug.win32\libAudio.lib" /NOLOGO Debug.win32\MciPlayer.obj
+         Debug.win32\SimpleAudioEngine.obj
+         CocosDenshion.vcxproj -> E:\develop\MagickaHero\proj.win32\Debug.win32\libAudio.lib
+     1>已完成生成项目“E:\develop\MagickaHero\cocos2d\cocos\audio\proj.win32\CocosDenshion.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.04

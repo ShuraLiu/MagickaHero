@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\develop\MagickaHero\CocosStudio\ccsprojs\ControlLayer</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>E:\develop\MagickaHero\CocosStudio\assets</Resources>
+  <Name>ControlLayer</Name>
+  <JsonFileName>ControlLayer.json</JsonFileName>
+  <JsonFolder>E:\develop\MagickaHero\CocosStudio\ccsprojs\ControlLayer\Json</JsonFolder>
+  <JsonList>
+    <string>ControlLayer_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>480</Width>
+    <Height>320</Height>
+  </CanvasSize>
+  <filePath>E:\develop\MagickaHero\CocosStudio\ccsprojs\ControlLayer\ControlLayer.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath>\\..\\..\\assets</ResRelativePath>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>ControlLayer_1.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<SceneProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\develop\MagickaHero\CocosStudio\ccsprojs\GameScene</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>E:\develop\MagickaHero</Resources>
+  <Name>GameScene</Name>
+  <JsonFileName>GameScene.json</JsonFileName>
+  <JsonFolder>E:\develop\MagickaHero\CocosStudio\assets\publish</JsonFolder>
+  <JsonList />
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>E:\develop\MagickaHero\CocosStudio\ccsprojs\GameScene\GameScene.xml.scene</filePath>
+  <ProjectType>SceneProject</ProjectType>
+  <ResRelativePath>\\..\\..\\assets</ResRelativePath>
+  <JSFileList />
+  <DefaultUI_JSList />
+  <Res>E:\develop\MagickaHero\CocosStudio\assets</Res>
+</SceneProject>

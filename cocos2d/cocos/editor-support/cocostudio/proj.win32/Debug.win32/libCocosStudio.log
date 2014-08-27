@@ -1,0 +1,620 @@
+﻿生成启动时间为 2014/8/26 23:23:11。
+     1>项目“E:\develop\MagickaHero\cocos2d\cocos\editor-support\cocostudio\proj.win32\libCocosStudio.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\ /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\cocos /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\cocos\audio\include /I"E:\develop\MagickaHero\cocos2d\cocos\2d\..\..\cocos\editor-support" /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\external /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\external\tinyxml2 /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\extensions /I"E:\develop\MagickaHero\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\include" /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\cocos /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\cocos\platform\win32 /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\cocos\platform\desktop /IE:\develop\MagickaHero\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"E:\develop\MagickaHero\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\ActionTimeline\CCActionTimeline.cpp ..\ActionTimeline\CCFrame.cpp ..\ActionTimeline\CCNodeReader.cpp ..\ActionTimeline\CCActionTimelineCache.cpp ..\ActionTimeline\CCTimeLine.cpp ..\CCActionFrame.cpp ..\CCActionFrameEasing.cpp ..\CCActionManagerEx.cpp ..\CCActionNode.cpp ..\CCActionObject.cpp ..\CCArmature.cpp ..\CCArmatureAnimation.cpp ..\CCArmatureDataManager.cpp ..\CCArmatureDefine.cpp ..\CCBatchNode.cpp ..\CCBone.cpp ..\CCColliderDetector.cpp ..\CCComAttribute.cpp ..\CCComAudio.cpp ..\CCComController.cpp ..\CCComRender.cpp ..\CCDataReaderHelper.cpp ..\CCDatas.cpp ..\CCDecorativeDisplay.cpp ..\CCDisplayFactory.cpp ..\CCDisplayManager.cpp ..\CCInputDelegate.cpp ..\CCProcessBase.cpp ..\CCSGUIReader.cpp ..\CCSkin.cpp ..\CCSpriteFrameCacheHelper.cpp ..\CCSSceneReader.cpp ..\CCTransformHelp.cpp ..\CCTween.cpp ..\CCUtilMath.cpp ..\CocoLoader.cpp ..\DictionaryHelper.cpp ..\TriggerBase.cpp ..\TriggerMng.cpp ..\TriggerObj.cpp ..\WidgetReader\ButtonReader\ButtonReader.cpp ..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp ..\WidgetReader\ImageViewReader\ImageViewReader.cpp ..\WidgetReader\LayoutReader\LayoutReader.cpp ..\WidgetReader\ListViewReader\ListViewReader.cpp ..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp ..\WidgetReader\PageViewReader\PageViewReader.cpp ..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp ..\WidgetReader\SliderReader\SliderReader.cpp ..\WidgetReader\TextAtlasReader\TextAtlasReader.cpp ..\WidgetReader\TextBMFontReader\TextBMFontReader.cpp ..\WidgetReader\TextFieldReader\TextFieldReader.cpp ..\WidgetReader\TextReader\TextReader.cpp ..\WidgetReader\WidgetReader.cpp
+         CCActionTimeline.cpp
+         CCFrame.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\ActionTimeline\CCActionTimeline.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\ActionTimeline\CCFrame.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>..\ActionTimeline\CCFrame.cpp(608): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+         CCNodeReader.cpp
+         CCActionTimelineCache.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\ActionTimeline\CCNodeReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\ActionTimeline\CCNodeReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\ActionTimeline\CCNodeReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\ActionTimeline\CCNodeReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\ActionTimeline\CCNodeReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>..\ActionTimeline\CCNodeReader.cpp(287): warning C4996: 'cocos2d::Node::setRotationX': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(560) : 参见“cocos2d::Node::setRotationX”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(560) : 参见“cocos2d::Node::setRotationX”的声明
+     1>..\ActionTimeline\CCNodeReader.cpp(289): warning C4996: 'cocos2d::Node::setRotationY': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(586) : 参见“cocos2d::Node::setRotationY”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(586) : 参见“cocos2d::Node::setRotationY”的声明
+     1>..\ActionTimeline\CCNodeReader.cpp(299): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\ActionTimeline\CCActionTimelineCache.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+         CCTimeLine.cpp
+         CCActionFrame.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\ActionTimeline\CCTimeLine.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>..\ActionTimeline\CCTimeLine.cpp(142): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(144): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(152): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(164): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(164): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(169): warning C4018: “>”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(178): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(204): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(211): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(238): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(238): warning C4018: “>=”: 有符号/无符号不匹配
+         CCActionFrameEasing.cpp
+         CCActionManagerEx.cpp
+         CCActionNode.cpp
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\CCActionNode.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\CCActionNode.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\CCActionNode.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\CCActionNode.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+         CCActionObject.cpp
+         CCArmature.cpp
+         CCArmatureAnimation.cpp
+         CCArmatureDataManager.cpp
+         CCArmatureDefine.cpp
+         CCBatchNode.cpp
+         CCBone.cpp
+         CCColliderDetector.cpp
+         CCComAttribute.cpp
+         CCComAudio.cpp
+         CCComController.cpp
+         CCComRender.cpp
+         CCDataReaderHelper.cpp
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\CCComRender.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\CCComRender.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\CCComRender.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\CCComRender.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>..\CCDataReaderHelper.cpp(311): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+     1>..\CCDataReaderHelper.cpp(425): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\CCComRender.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>..\CCComRender.cpp(216): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+                 e:\develop\magickahero\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+         CCDatas.cpp
+         CCDecorativeDisplay.cpp
+         CCDisplayFactory.cpp
+         CCDisplayManager.cpp
+         CCInputDelegate.cpp
+         CCProcessBase.cpp
+         CCSGUIReader.cpp
+         CCSkin.cpp
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(42): warning C4996: 'cocos2d::ui::CheckBoxEventType': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(40) : 参见“cocos2d::ui::CheckBoxEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(178): warning C4996: 'cocos2d::ui::SEL_SelectedStateEvent': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(42) : 参见“cocos2d::ui::SEL_SelectedStateEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49): warning C4996: 'cocos2d::ui::ScrollviewEventType': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(47) : 参见“cocos2d::ui::ScrollviewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(253): warning C4996: 'cocos2d::ui::SEL_ScrollViewEvent': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49) : 参见“cocos2d::ui::SEL_ScrollViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41): warning C4996: 'cocos2d::ui::ListViewEventType': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(39) : 参见“cocos2d::ui::ListViewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(176): warning C4996: 'cocos2d::ui::SEL_ListViewEvent': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41) : 参见“cocos2d::ui::SEL_ListViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(41): warning C4996: 'cocos2d::ui::SliderEventType': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(39) : 参见“cocos2d::ui::SliderEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(186): warning C4996: 'cocos2d::ui::SEL_SlidPercentChangedEvent': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(41) : 参见“cocos2d::ui::SEL_SlidPercentChangedEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(102): warning C4996: 'cocos2d::ui::TextFiledEventType': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(100) : 参见“cocos2d::ui::TextFiledEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(174): warning C4996: 'cocos2d::ui::SEL_TextFieldEvent': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(102) : 参见“cocos2d::ui::SEL_TextFieldEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39): warning C4996: 'cocos2d::ui::PageViewEventType': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(37) : 参见“cocos2d::ui::PageViewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(137): warning C4996: 'cocos2d::ui::SEL_PageViewEvent': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39) : 参见“cocos2d::ui::SEL_PageViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(154): warning C4996: 'cocos2d::ui::SEL_PageViewEvent': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39) : 参见“cocos2d::ui::SEL_PageViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(154): warning C4996: 'cocos2d::ui::PageViewEventType': 被声明为已否决 (..\CCSGUIReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(37) : 参见“cocos2d::ui::PageViewEventType”的声明
+     1>..\CCSGUIReader.cpp(231): warning C4996: 'cocos2d::ui::SEL_SelectedStateEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(42) : 参见“cocos2d::ui::SEL_SelectedStateEvent”的声明
+     1>..\CCSGUIReader.cpp(231): warning C4996: 'cocos2d::ui::CheckBoxEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(40) : 参见“cocos2d::ui::CheckBoxEventType”的声明
+     1>..\CCSGUIReader.cpp(255): warning C4996: 'cocos2d::ui::SEL_SlidPercentChangedEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(41) : 参见“cocos2d::ui::SEL_SlidPercentChangedEvent”的声明
+     1>..\CCSGUIReader.cpp(255): warning C4996: 'cocos2d::ui::SliderEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(39) : 参见“cocos2d::ui::SliderEventType”的声明
+     1>..\CCSGUIReader.cpp(259): warning C4996: 'cocos2d::ui::SEL_TextFieldEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(102) : 参见“cocos2d::ui::SEL_TextFieldEvent”的声明
+     1>..\CCSGUIReader.cpp(259): warning C4996: 'cocos2d::ui::TextFiledEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(100) : 参见“cocos2d::ui::TextFiledEventType”的声明
+     1>..\CCSGUIReader.cpp(263): warning C4996: 'cocos2d::ui::SEL_ScrollViewEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49) : 参见“cocos2d::ui::SEL_ScrollViewEvent”的声明
+     1>..\CCSGUIReader.cpp(263): warning C4996: 'cocos2d::ui::ScrollviewEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(47) : 参见“cocos2d::ui::ScrollviewEventType”的声明
+     1>..\CCSGUIReader.cpp(263): warning C4996: 'cocos2d::ui::SEL_ListViewEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41) : 参见“cocos2d::ui::SEL_ListViewEvent”的声明
+     1>..\CCSGUIReader.cpp(263): warning C4996: 'cocos2d::ui::ListViewEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(39) : 参见“cocos2d::ui::ListViewEventType”的声明
+     1>..\CCSGUIReader.cpp(349): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+                 e:\develop\magickahero\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+     1>..\CCSGUIReader.cpp(497): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+     1>..\CCSGUIReader.cpp(611): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+     1>..\CCSGUIReader.cpp(710): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+     1>..\CCSGUIReader.cpp(826): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+     1>..\CCSGUIReader.cpp(1019): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+     1>..\CCSGUIReader.cpp(1207): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+     1>..\CCSGUIReader.cpp(1271): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+         CCSpriteFrameCacheHelper.cpp
+         CCSSceneReader.cpp
+         CCTransformHelp.cpp
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+         CCTween.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(42): warning C4996: 'cocos2d::ui::CheckBoxEventType': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(40) : 参见“cocos2d::ui::CheckBoxEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(178): warning C4996: 'cocos2d::ui::SEL_SelectedStateEvent': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(42) : 参见“cocos2d::ui::SEL_SelectedStateEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49): warning C4996: 'cocos2d::ui::ScrollviewEventType': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(47) : 参见“cocos2d::ui::ScrollviewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(253): warning C4996: 'cocos2d::ui::SEL_ScrollViewEvent': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49) : 参见“cocos2d::ui::SEL_ScrollViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41): warning C4996: 'cocos2d::ui::ListViewEventType': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(39) : 参见“cocos2d::ui::ListViewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(176): warning C4996: 'cocos2d::ui::SEL_ListViewEvent': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41) : 参见“cocos2d::ui::SEL_ListViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(41): warning C4996: 'cocos2d::ui::SliderEventType': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(39) : 参见“cocos2d::ui::SliderEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(186): warning C4996: 'cocos2d::ui::SEL_SlidPercentChangedEvent': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(41) : 参见“cocos2d::ui::SEL_SlidPercentChangedEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(102): warning C4996: 'cocos2d::ui::TextFiledEventType': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(100) : 参见“cocos2d::ui::TextFiledEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(174): warning C4996: 'cocos2d::ui::SEL_TextFieldEvent': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(102) : 参见“cocos2d::ui::SEL_TextFieldEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39): warning C4996: 'cocos2d::ui::PageViewEventType': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(37) : 参见“cocos2d::ui::PageViewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(137): warning C4996: 'cocos2d::ui::SEL_PageViewEvent': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39) : 参见“cocos2d::ui::SEL_PageViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(154): warning C4996: 'cocos2d::ui::SEL_PageViewEvent': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39) : 参见“cocos2d::ui::SEL_PageViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(154): warning C4996: 'cocos2d::ui::PageViewEventType': 被声明为已否决 (..\CCSSceneReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(37) : 参见“cocos2d::ui::PageViewEventType”的声明
+     1>..\CCSSceneReader.cpp(85): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+                 e:\develop\magickahero\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+     1>..\CCSSceneReader.cpp(523): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>..\CCSSceneReader.cpp(534): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+         CCUtilMath.cpp
+         CocoLoader.cpp
+     1>..\CocoLoader.cpp(194): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\CocoLoader.cpp(206): warning C4018: “<”: 有符号/无符号不匹配
+         DictionaryHelper.cpp
+         TriggerBase.cpp
+         TriggerMng.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\TriggerBase.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\TriggerBase.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\TriggerBase.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\TriggerBase.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\TriggerBase.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\TriggerMng.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\TriggerMng.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\TriggerMng.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\TriggerMng.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\TriggerMng.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+         TriggerObj.cpp
+         ButtonReader.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\TriggerObj.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\TriggerObj.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\TriggerObj.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\TriggerObj.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\TriggerObj.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\ButtonReader\ButtonReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\ButtonReader\ButtonReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\ButtonReader\ButtonReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\ButtonReader\ButtonReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\ButtonReader\ButtonReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>..\WidgetReader\ButtonReader\ButtonReader.cpp(79): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+     1>..\WidgetReader\ButtonReader\ButtonReader.cpp(155): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+     1>..\WidgetReader\ButtonReader\ButtonReader.cpp(206): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+         CheckBoxReader.cpp
+         ImageViewReader.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(42): warning C4996: 'cocos2d::ui::CheckBoxEventType': 被声明为已否决 (..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(40) : 参见“cocos2d::ui::CheckBoxEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(178): warning C4996: 'cocos2d::ui::SEL_SelectedStateEvent': 被声明为已否决 (..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(42) : 参见“cocos2d::ui::SEL_SelectedStateEvent”的声明
+     1>..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp(44): warning C4996: 'cocos2d::ui::SEL_SelectedStateEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(42) : 参见“cocos2d::ui::SEL_SelectedStateEvent”的声明
+     1>..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp(44): warning C4996: 'cocos2d::ui::CheckBoxEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UICheckBox.h(40) : 参见“cocos2d::ui::CheckBoxEventType”的声明
+     1>..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp(53): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>..\WidgetReader\ImageViewReader\ImageViewReader.cpp(60): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+     1>..\WidgetReader\ImageViewReader\ImageViewReader.cpp(131): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+         LayoutReader.cpp
+         ListViewReader.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49): warning C4996: 'cocos2d::ui::ScrollviewEventType': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(47) : 参见“cocos2d::ui::ScrollviewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(253): warning C4996: 'cocos2d::ui::SEL_ScrollViewEvent': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49) : 参见“cocos2d::ui::SEL_ScrollViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39): warning C4996: 'cocos2d::ui::PageViewEventType': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(37) : 参见“cocos2d::ui::PageViewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(137): warning C4996: 'cocos2d::ui::SEL_PageViewEvent': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39) : 参见“cocos2d::ui::SEL_PageViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(154): warning C4996: 'cocos2d::ui::SEL_PageViewEvent': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39) : 参见“cocos2d::ui::SEL_PageViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(154): warning C4996: 'cocos2d::ui::PageViewEventType': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(37) : 参见“cocos2d::ui::PageViewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41): warning C4996: 'cocos2d::ui::ListViewEventType': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(39) : 参见“cocos2d::ui::ListViewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(176): warning C4996: 'cocos2d::ui::SEL_ListViewEvent': 被声明为已否决 (..\WidgetReader\LayoutReader\LayoutReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41) : 参见“cocos2d::ui::SEL_ListViewEvent”的声明
+     1>..\WidgetReader\LayoutReader\LayoutReader.cpp(83): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+     1>..\WidgetReader\LayoutReader\LayoutReader.cpp(224): warning C4996: 'cocos2d::ui::SEL_ScrollViewEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49) : 参见“cocos2d::ui::SEL_ScrollViewEvent”的声明
+     1>..\WidgetReader\LayoutReader\LayoutReader.cpp(224): warning C4996: 'cocos2d::ui::ScrollviewEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(47) : 参见“cocos2d::ui::ScrollviewEventType”的声明
+     1>..\WidgetReader\LayoutReader\LayoutReader.cpp(224): warning C4996: 'cocos2d::ui::SEL_ListViewEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41) : 参见“cocos2d::ui::SEL_ListViewEvent”的声明
+     1>..\WidgetReader\LayoutReader\LayoutReader.cpp(224): warning C4996: 'cocos2d::ui::ListViewEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(39) : 参见“cocos2d::ui::ListViewEventType”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\ListViewReader\ListViewReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\ListViewReader\ListViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\ListViewReader\ListViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\ListViewReader\ListViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\ListViewReader\ListViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49): warning C4996: 'cocos2d::ui::ScrollviewEventType': 被声明为已否决 (..\WidgetReader\ListViewReader\ListViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(47) : 参见“cocos2d::ui::ScrollviewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(253): warning C4996: 'cocos2d::ui::SEL_ScrollViewEvent': 被声明为已否决 (..\WidgetReader\ListViewReader\ListViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49) : 参见“cocos2d::ui::SEL_ScrollViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41): warning C4996: 'cocos2d::ui::ListViewEventType': 被声明为已否决 (..\WidgetReader\ListViewReader\ListViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(39) : 参见“cocos2d::ui::ListViewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(176): warning C4996: 'cocos2d::ui::SEL_ListViewEvent': 被声明为已否决 (..\WidgetReader\ListViewReader\ListViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41) : 参见“cocos2d::ui::SEL_ListViewEvent”的声明
+     1>..\WidgetReader\ListViewReader\ListViewReader.cpp(42): warning C4996: 'cocos2d::ui::SEL_ScrollViewEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49) : 参见“cocos2d::ui::SEL_ScrollViewEvent”的声明
+     1>..\WidgetReader\ListViewReader\ListViewReader.cpp(42): warning C4996: 'cocos2d::ui::ScrollviewEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(47) : 参见“cocos2d::ui::ScrollviewEventType”的声明
+     1>..\WidgetReader\ListViewReader\ListViewReader.cpp(42): warning C4996: 'cocos2d::ui::SEL_ListViewEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(41) : 参见“cocos2d::ui::SEL_ListViewEvent”的声明
+     1>..\WidgetReader\ListViewReader\ListViewReader.cpp(42): warning C4996: 'cocos2d::ui::ListViewEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIListView.h(39) : 参见“cocos2d::ui::ListViewEventType”的声明
+         LoadingBarReader.cpp
+         PageViewReader.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(61): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+     1>..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(133): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\PageViewReader\PageViewReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\PageViewReader\PageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\PageViewReader\PageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\PageViewReader\PageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\PageViewReader\PageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39): warning C4996: 'cocos2d::ui::PageViewEventType': 被声明为已否决 (..\WidgetReader\PageViewReader\PageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(37) : 参见“cocos2d::ui::PageViewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(137): warning C4996: 'cocos2d::ui::SEL_PageViewEvent': 被声明为已否决 (..\WidgetReader\PageViewReader\PageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39) : 参见“cocos2d::ui::SEL_PageViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(154): warning C4996: 'cocos2d::ui::SEL_PageViewEvent': 被声明为已否决 (..\WidgetReader\PageViewReader\PageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(39) : 参见“cocos2d::ui::SEL_PageViewEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(154): warning C4996: 'cocos2d::ui::PageViewEventType': 被声明为已否决 (..\WidgetReader\PageViewReader\PageViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIPageView.h(37) : 参见“cocos2d::ui::PageViewEventType”的声明
+         ScrollViewReader.cpp
+         SliderReader.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49): warning C4996: 'cocos2d::ui::ScrollviewEventType': 被声明为已否决 (..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(47) : 参见“cocos2d::ui::ScrollviewEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(253): warning C4996: 'cocos2d::ui::SEL_ScrollViewEvent': 被声明为已否决 (..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49) : 参见“cocos2d::ui::SEL_ScrollViewEvent”的声明
+     1>..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(45): warning C4996: 'cocos2d::ui::SEL_ScrollViewEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(49) : 参见“cocos2d::ui::SEL_ScrollViewEvent”的声明
+     1>..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(45): warning C4996: 'cocos2d::ui::ScrollviewEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIScrollView.h(47) : 参见“cocos2d::ui::ScrollviewEventType”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\SliderReader\SliderReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\SliderReader\SliderReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\SliderReader\SliderReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\SliderReader\SliderReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\SliderReader\SliderReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(41): warning C4996: 'cocos2d::ui::SliderEventType': 被声明为已否决 (..\WidgetReader\SliderReader\SliderReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(39) : 参见“cocos2d::ui::SliderEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(186): warning C4996: 'cocos2d::ui::SEL_SlidPercentChangedEvent': 被声明为已否决 (..\WidgetReader\SliderReader\SliderReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(41) : 参见“cocos2d::ui::SEL_SlidPercentChangedEvent”的声明
+     1>..\WidgetReader\SliderReader\SliderReader.cpp(50): warning C4996: 'cocos2d::ui::SEL_SlidPercentChangedEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(41) : 参见“cocos2d::ui::SEL_SlidPercentChangedEvent”的声明
+     1>..\WidgetReader\SliderReader\SliderReader.cpp(50): warning C4996: 'cocos2d::ui::SliderEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UISlider.h(39) : 参见“cocos2d::ui::SliderEventType”的声明
+     1>..\WidgetReader\SliderReader\SliderReader.cpp(61): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+     1>..\WidgetReader\SliderReader\SliderReader.cpp(128): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+         TextAtlasReader.cpp
+         TextBMFontReader.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>..\WidgetReader\TextAtlasReader\TextAtlasReader.cpp(63): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>..\WidgetReader\TextBMFontReader\TextBMFontReader.cpp(51): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+         TextFieldReader.cpp
+         TextReader.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(102): warning C4996: 'cocos2d::ui::TextFiledEventType': 被声明为已否决 (..\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(100) : 参见“cocos2d::ui::TextFiledEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(174): warning C4996: 'cocos2d::ui::SEL_TextFieldEvent': 被声明为已否决 (..\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(102) : 参见“cocos2d::ui::SEL_TextFieldEvent”的声明
+     1>..\WidgetReader\TextFieldReader\TextFieldReader.cpp(50): warning C4996: 'cocos2d::ui::SEL_TextFieldEvent': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(102) : 参见“cocos2d::ui::SEL_TextFieldEvent”的声明
+     1>..\WidgetReader\TextFieldReader\TextFieldReader.cpp(50): warning C4996: 'cocos2d::ui::TextFiledEventType': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UITextField.h(100) : 参见“cocos2d::ui::TextFiledEventType”的声明
+     1>..\WidgetReader\TextFieldReader\TextFieldReader.cpp(59): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\TextReader\TextReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\TextReader\TextReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\TextReader\TextReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\TextReader\TextReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\TextReader\TextReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>..\WidgetReader\TextReader\TextReader.cpp(59): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+         WidgetReader.cpp
+     1>e:\develop\magickahero\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': 被声明为已否决 (..\WidgetReader\WidgetReader.cpp)
+                 e:\develop\magickahero\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 参见“cocos2d::GL::deleteTextureN”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\WidgetReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(236): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\WidgetReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::SEL_TouchEvent': 被声明为已否决 (..\WidgetReader\WidgetReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(48) : 参见“cocos2d::ui::SEL_TouchEvent”的声明
+     1>E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(204): warning C4996: 'cocos2d::ui::TouchEventType': 被声明为已否决 (..\WidgetReader\WidgetReader.cpp)
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(46) : 参见“cocos2d::ui::TouchEventType”的声明
+     1>..\WidgetReader\WidgetReader.cpp(142): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+     1>..\WidgetReader\WidgetReader.cpp(262): warning C4996: 'cocos2d::ui::Widget::setSize': 被声明为已否决
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+                 E:\develop\MagickaHero\cocos2d\cocos\ui/UIWidget.h(374) : 参见“cocos2d::ui::Widget::setSize”的声明
+     1>..\WidgetReader\WidgetReader.cpp(351): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+                 e:\develop\magickahero\cocos2d\cocos\2d/CCNode.h(155) : 参见“cocos2d::Node::setZOrder”的声明
+       Lib:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\develop\MagickaHero\proj.win32\Debug.win32\libCocosStudio.lib" /NOLOGO Debug.win32\CCActionTimeline.obj
+         Debug.win32\CCFrame.obj
+         Debug.win32\CCNodeReader.obj
+         Debug.win32\CCActionTimelineCache.obj
+         Debug.win32\CCTimeLine.obj
+         Debug.win32\CCActionFrame.obj
+         Debug.win32\CCActionFrameEasing.obj
+         Debug.win32\CCActionManagerEx.obj
+         Debug.win32\CCActionNode.obj
+         Debug.win32\CCActionObject.obj
+         Debug.win32\CCArmature.obj
+         Debug.win32\CCArmatureAnimation.obj
+         Debug.win32\CCArmatureDataManager.obj
+         Debug.win32\CCArmatureDefine.obj
+         Debug.win32\CCBatchNode.obj
+         Debug.win32\CCBone.obj
+         Debug.win32\CCColliderDetector.obj
+         Debug.win32\CCComAttribute.obj
+         Debug.win32\CCComAudio.obj
+         Debug.win32\CCComController.obj
+         Debug.win32\CCComRender.obj
+         Debug.win32\CCDataReaderHelper.obj
+         Debug.win32\CCDatas.obj
+         Debug.win32\CCDecorativeDisplay.obj
+         Debug.win32\CCDisplayFactory.obj
+         Debug.win32\CCDisplayManager.obj
+         Debug.win32\CCInputDelegate.obj
+         Debug.win32\CCProcessBase.obj
+         Debug.win32\CCSGUIReader.obj
+         Debug.win32\CCSkin.obj
+         Debug.win32\CCSpriteFrameCacheHelper.obj
+         Debug.win32\CCSSceneReader.obj
+         Debug.win32\CCTransformHelp.obj
+         Debug.win32\CCTween.obj
+         Debug.win32\CCUtilMath.obj
+         Debug.win32\CocoLoader.obj
+         Debug.win32\DictionaryHelper.obj
+         Debug.win32\TriggerBase.obj
+         Debug.win32\TriggerMng.obj
+         Debug.win32\TriggerObj.obj
+         Debug.win32\ButtonReader.obj
+         Debug.win32\CheckBoxReader.obj
+         Debug.win32\ImageViewReader.obj
+         Debug.win32\LayoutReader.obj
+         Debug.win32\ListViewReader.obj
+         Debug.win32\LoadingBarReader.obj
+         Debug.win32\PageViewReader.obj
+         Debug.win32\ScrollViewReader.obj
+         Debug.win32\SliderReader.obj
+         Debug.win32\TextAtlasReader.obj
+         Debug.win32\TextBMFontReader.obj
+         Debug.win32\TextFieldReader.obj
+         Debug.win32\TextReader.obj
+         Debug.win32\WidgetReader.obj
+         libCocosStudio.vcxproj -> E:\develop\MagickaHero\proj.win32\Debug.win32\libCocosStudio.lib
+     1>已完成生成项目“E:\develop\MagickaHero\cocos2d\cocos\editor-support\cocostudio\proj.win32\libCocosStudio.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:03:06.39
